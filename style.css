@@ -1,0 +1,116 @@
+:root{
+  --background-color: #FFFFFF;
+  --surface-color: #f5f5f5;
+  --skeleton-color: #d9d9d9;
+  --shape-transparency: #FFFFFF;
+
+  --text-color-primary: #313131;
+  --text-color-secondary: #6c6c6c;
+
+}
+
+.header{
+  background-color: var(--skeleton-color);
+  padding: 24px;
+}
+body{
+  background-color: var(--surface-color);
+  margin: 0;
+}
+#logo{
+  size: 40px;
+}
+
+#profineImage{
+  height: 40px;
+}
+
+#profineImage2{
+  height: 176px;
+}
+
+h1{
+  font-family: "Poppins", serif;
+  font-size: 32px;
+  font-weight: 125%;
+  color: var(--text-color-primary);
+}
+p{
+  font-family: "Poppins", serif;
+  font-size: 14px;
+  font-weight: 170%;
+  color: var(--text-color-secondary);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+#upHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.upHeaderLeft{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.about-me{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-me-first{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 800px;
+}
+
+.geograph{
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+}
+
+.geograph img{
+  height: 24px;
+}
+
+.geograph div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.photos{
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 256px; */
+  flex: 1 0 1;
+  gap: 24px;
+  justify-content: center;
+  margin: 24px 0px;
+}
+.photos img{
+  height: 286px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 24px;
+}
+
+.right-side{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 24px;
+}
