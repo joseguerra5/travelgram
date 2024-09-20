@@ -1,7 +1,9 @@
 main{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
   gap: 24px;
+  justify-items: center;
   padding-block: 24px;
 }
 
@@ -9,4 +11,11 @@ main img{
   width: 286px;
   height: 286px;
   object-fit: cover;
+}
+
+@media (width >= 80em) {
+  main{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  }
 }
