@@ -7,14 +7,18 @@ footer{
   font: 14px/150% var(--font-family);
 }
 
-footer span:nth-child(1){
-  margin-right: auto;
-}
 
-footer span:nth-child(2){
-  text-align: center;
-}
 
-footer span:nth-child(3){
-  text-align: end;
+@media (width >= 80em) {
+  footer span:nth-child(1){
+    margin-right: auto;
+  }
+  
+  footer span:nth-child(2){
+    text-align: center;
+  }
+  
+  footer span:nth-child(3){
+    text-align: end;
+  }
 }
